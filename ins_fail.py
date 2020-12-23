@@ -18,7 +18,7 @@ class doit:
         self.driver.get("https://www.instagram.com/accounts/login/?source=auth_switcher")
         user = self.driver.find_elements_by_xpath("//input[@class='_2hvTZ pexuQ zyHYP']")
         user[0].send_keys("kkikko512")
-        ActionChains(self.driver).send_keys(Keys.TAB + "tuki***codon123" + Keys.ENTER).perform()
+        ActionChains(self.driver).send_keys(Keys.TAB + "pwd" + Keys.ENTER).perform()
         time.sleep(3)
         
     def getimg(self):
